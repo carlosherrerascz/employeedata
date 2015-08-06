@@ -1,0 +1,49 @@
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\bin\Debug\employeedata.exe.config
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\bin\Debug\employeedata.exe
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\bin\Debug\employeedata.pdb
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\bin\Debug\employeedata.xml
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\obj\Debug\employeedata.Form1.resources
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\obj\Debug\employeedata.Resources.resources
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\obj\Debug\employeedata.vbproj.GenerateResource.Cache
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\obj\Debug\employeedata.exe
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\obj\Debug\employeedata.xml
+c:\users\tatsu\documents\visual studio 2013\Projects\employeedata\employeedata\obj\Debug\employeedata.pdb
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\bin\Debug\employeedata.exe.config
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\obj\Debug\employeedata.exe
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\obj\Debug\employeedata.xml
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\obj\Debug\employeedata.pdb
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\bin\Debug\employeedata.exe
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\bin\Debug\employeedata.pdb
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\bin\Debug\employeedata.xml
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\obj\Debug\employeedata.Form1.resources
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\obj\Debug\employeedata.Resources.resources
+C:\Users\Carlos\Documents\employeedata\employeedata\employeedata\obj\Debug\employeedata.vbproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\bin\Debug\employeedata.exe.config
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.exe
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.xml
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.pdb
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\bin\Debug\employeedata.exe
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\bin\Debug\employeedata.pdb
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\bin\Debug\employeedata.xml
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.frmAddEmployee.resources
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.frmRecords.resources
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.Resources.resources
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.vbproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.frmSearch.resources
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\bin\Debug\employeedata.exe.config
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.exe
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.xml
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.pdb
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\bin\Debug\employeedata.exe
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\bin\Debug\employeedata.pdb
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\bin\Debug\employeedata.xml
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.frmAddEmployee.resources
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.frmRecords.resources
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.frmSearch.resources
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.Resources.resources
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.vbproj.GenerateResource.Cache
+C:\Users\tatsu\Downloads\employeedataFinal\employeedataFinal\employeedata\employeedata\obj\Debug\employeedata.frmCompleteRecord.resources
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\bin\Debug\employeedata.exe.config
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.exe
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.xml
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.pdb

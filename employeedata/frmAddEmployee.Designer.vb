@@ -22,6 +22,7 @@ Partial Class frmAddEmployee
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.cmbDepartment = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -47,12 +48,12 @@ Partial Class frmAddEmployee
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SearchToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SeachToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ShowRecrdsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PartiallyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FullyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -250,7 +251,7 @@ Partial Class frmAddEmployee
         '
         'FileToolStripMenuItem
         '
-        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenToolStripMenuItem, Me.SearchToolStripMenuItem})
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "&File"
@@ -258,26 +259,14 @@ Partial Class frmAddEmployee
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
         Me.OpenToolStripMenuItem.Text = "&Open"
-        '
-        'SearchToolStripMenuItem
-        '
-        Me.SearchToolStripMenuItem.Name = "SearchToolStripMenuItem"
-        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SearchToolStripMenuItem.Text = "&Search"
         '
         'SeachToolStripMenuItem
         '
         Me.SeachToolStripMenuItem.Name = "SeachToolStripMenuItem"
         Me.SeachToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
         Me.SeachToolStripMenuItem.Text = "Search"
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
-        Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'ShowRecrdsToolStripMenuItem
         '
@@ -289,14 +278,23 @@ Partial Class frmAddEmployee
         'PartiallyToolStripMenuItem
         '
         Me.PartiallyToolStripMenuItem.Name = "PartiallyToolStripMenuItem"
-        Me.PartiallyToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PartiallyToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.PartiallyToolStripMenuItem.Text = "Partially"
         '
         'FullyToolStripMenuItem
         '
         Me.FullyToolStripMenuItem.Name = "FullyToolStripMenuItem"
-        Me.FullyToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FullyToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.FullyToolStripMenuItem.Text = "Fully"
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'Timer1
+        '
         '
         'frmAddEmployee
         '
@@ -346,10 +344,10 @@ Partial Class frmAddEmployee
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents OpenToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SearchToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SeachToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ShowRecrdsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PartiallyToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents FullyToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 
 End Class

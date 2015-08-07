@@ -70,11 +70,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="frmAddEmployee.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="frmAddEmployee.Designer.vb">
+      <DependentUpon>frmAddEmployee.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormRecordsModule.vb" />
@@ -113,8 +113,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="frmAddEmployee.resx">
+      <DependentUpon>frmAddEmployee.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCompleteRecord.resx">
       <DependentUpon>frmCompleteRecord.vb</DependentUpon>

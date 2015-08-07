@@ -50,7 +50,8 @@ Module Module1
         'Rewind to line 0
         streamReader.Close()
         streamReader = File.OpenText(strFileName)
-
+            'The total amount of employees is the total amount of lines divided by 8,
+            'which is the amount of fields the user can fill in.
         intTotalEmployees = CInt(intCount / 8)
 
         'Increment it by 3 - 1, as every array starts with one dimension.
@@ -95,7 +96,7 @@ Module Module1
         If strFileName <> String.Empty Then
             Return True
         Else
-            MessageBox.Show("Please open a file before going to this menu!")
+            MessageBox.Show("Please open a file before going selecting this option!")
             Return False
         End If
     End Function

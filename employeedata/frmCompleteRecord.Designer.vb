@@ -24,6 +24,7 @@ Partial Class frmCompleteRecord
     Private Sub InitializeComponent()
         Me.lstEmployees = New System.Windows.Forms.ListBox()
         Me.btnPrint = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lstEmployees
@@ -36,18 +37,28 @@ Partial Class frmCompleteRecord
         '
         'btnPrint
         '
-        Me.btnPrint.Location = New System.Drawing.Point(39, 422)
+        Me.btnPrint.Location = New System.Drawing.Point(12, 422)
         Me.btnPrint.Name = "btnPrint"
         Me.btnPrint.Size = New System.Drawing.Size(75, 44)
         Me.btnPrint.TabIndex = 1
         Me.btnPrint.Text = "Print"
         Me.btnPrint.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(699, 422)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 44)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "E&xit"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'frmCompleteRecord
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(786, 475)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnPrint)
         Me.Controls.Add(Me.lstEmployees)
         Me.Name = "frmCompleteRecord"
@@ -57,4 +68,5 @@ Partial Class frmCompleteRecord
     End Sub
     Friend WithEvents lstEmployees As System.Windows.Forms.ListBox
     Friend WithEvents btnPrint As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

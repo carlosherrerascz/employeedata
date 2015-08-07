@@ -11,7 +11,7 @@ Public Class frmRecords
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
 
         If intCurrentEmployeeFile > intTotalEmployees - 1 Then
-            MessageBox.Show("Fin de lista, regresando al primer empleado...")
+            MessageBox.Show("End of list, returning to first employee...")
             intCurrentEmployeeFile = 0
         End If
         With strEmployees(intCurrentEmployeeFile)

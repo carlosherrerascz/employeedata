@@ -47,3 +47,12 @@ C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\bin\Debug\empl
 C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.exe
 C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.xml
 C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.pdb
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\bin\Debug\employeedata.exe
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\bin\Debug\employeedata.pdb
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\bin\Debug\employeedata.xml
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.frmAddEmployee.resources
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.frmCompleteRecord.resources
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.frmRecords.resources
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.frmSearch.resources
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.Resources.resources
+C:\Users\tatsu\VisualBasicProjects\employeedataFinal\employeedata\obj\Debug\employeedata.vbproj.GenerateResource.Cache

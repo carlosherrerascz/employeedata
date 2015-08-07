@@ -3,9 +3,21 @@ Option Strict On
 Imports System.IO
 Public Class frmAddEmployee
 
+    Sub clearData()
+        txtFirstName.Clear()
+        txtMiddleName.Clear()
+        txtLastName.Clear()
+        txtEmployeeNumber.Clear()
+        cmbDepartment.Text = String.Empty
+        txtTelephone.Clear()
+        txtExtension.Clear()
+        txtEmail.Clear()
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtFirstName.Focus()
     End Sub
+
 
     Private Sub btnExit_Click() Handles btnExit.Click
         ' Close the form.
@@ -13,7 +25,17 @@ Public Class frmAddEmployee
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        If blnSavedBefore = False Then
+        Dim blnValidNumber As Boolean = True
+        For currentEmployee As Integer = 0 To intTotalEmployees - 1
+            If strEmployees(currentEmployee).strEmployeeNum = txtEmployeeNumber.Text Then
+                blnValidNumber = False
+                Exit For
+            End If
+        Next
+
+        If blnValidNumber Then
+            MessageBox.Show("Valid Data")
+
             Try
                 With sfdFile
                     .Filter = "text files (*.txt)|*.txt|all files (*.*)|*.*"
@@ -35,38 +57,25 @@ Public Class frmAddEmployee
 
                 ' Close the file.
                 outputFile.Close()
-                ' Update the isChanged variable.
-                '            blnIsChanged = False
-                blnSavedBefore = True
+
+                txtFirstName.Clear()
+                txtMiddleName.Clear()
+                txtLastName.Clear()
+                txtEmployeeNumber.Clear()
+                cmbDepartment.Text = String.Empty
+                txtTelephone.Clear()
+                txtExtension.Clear()
+                txtEmail.Clear()
             Catch
                 ' Error message for file creation error.
                 MessageBox.Show("Error creating the file.")
             End Try
-
         Else
-            outputFile = File.AppendText(strFileName)
-            ' Write the TextBox to the file.
-            outputFile.WriteLine(txtFirstName.Text)
-            outputFile.WriteLine(txtMiddleName.Text)
-            outputFile.WriteLine(txtLastName.Text)
-            outputFile.WriteLine(txtEmployeeNumber.Text)
-            outputFile.WriteLine(cmbDepartment.Text)
-            outputFile.WriteLine(txtTelephone.Text)
-            outputFile.WriteLine(txtExtension.Text)
-            outputFile.WriteLine(txtEmail.Text)
-
-            txtFirstName.Clear()
-            txtMiddleName.Clear()
-            txtLastName.Clear()
+            MessageBox.Show("Employee number already exists!")
             txtEmployeeNumber.Clear()
-            cmbDepartment.SelectedIndex = -1
-            cmbDepartment.Text = String.Empty
-            txtTelephone.Clear()
-            txtExtension.Clear()
-            txtEmail.Clear()
-            ' Close the file.
-            outputFile.Close()
         End If
+
+
     End Sub
 
 
@@ -97,5 +106,13 @@ Public Class frmAddEmployee
             frmCompleteRecord.Show()
             Me.Hide()
         End If
+    End Sub
+
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        clearData()
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+
     End Sub
 End Class
